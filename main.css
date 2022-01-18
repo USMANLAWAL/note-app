@@ -10,11 +10,27 @@ body{
     padding: 24px;
     gap: 24px;
 }
-#note{
+.note{
     height: 200px;
     border-radius: 10px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0, 15);
     border: none;
     padding: 16px;
     box-sizing: border-box;
+    resize: none;
+    font-family: sans-serif;
+}
+add-note{
+    height: 200px;
+    font-size: 120px;
+    border: none;
+    outline: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0, 5);
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0, 1);
+    transition: background 0.2s;
+}
+.add-note:hover{
+   background: rgba(0, 0, 0, 0, 2);
 }
